@@ -28,6 +28,7 @@ SQLite3
  https://www.kaggle.com/datasets/saurabhbadole/housing-price-data
 
 
+
 # Goal of the Porject:
 
 **Database Setup**: It connects to a SQLite database named "Housing.db" and creates a table called "housing_prices" with columns for various attributes like price, area, bedrooms, etc.
