@@ -15,7 +15,7 @@ SQLite3
 
  **Housing_Price_Data.csv**: Raw housing price data.
 
- **templates**: Directory for HTML templates.
+ **Templates**: Directory for HTML templates.
 
  **index_links.html**: Home page template with links.
 
@@ -29,7 +29,7 @@ SQLite3
 
 
 
-# Goal of the Porject:
+# Goal of the Project:
 
 **Database Setup**: It connects to a SQLite database named "Housing.db" and creates a table called "housing_prices" with columns for various attributes like price, area, bedrooms, etc.
 
