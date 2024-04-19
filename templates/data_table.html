@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dataset Details</title>      
+        <style>
+            table {
+                border-collapse: collapse;
+                width: 100%;
+            }
+            th, td {
+                border: 1px solid black;
+                padding: 8px;
+                text-align: left;
+            }
+        </style>
+
+    </head>
+    <body>
+        <h1>Housing Prices</h1>
+    <body>
+        <table>
+            <thead>
+                <tr><th>Price</th><th>Area</th><th>Bedrooms</th><th>Bathrooms</th><th>Stories</th><th>Mainroad</th><th>Guestroom</th><th>Basement</th><th>Hotwaterheating</th><th>Airconditioning</th><th>Parking</th><th>Prefarea</th><th>Furnishingstatus</th></tr>
+            </thead>
+            <tbody>
+                {% for s in housing_prices11%}
+            <tr><td>{{ s[0] }}</td><td>{{ s[1] }}</td><td>{{ s[2] }}</td><td>{{ s[3] }}</td><td>{{ s[4] }}</td><td>{{ s[5] }}</td><td>{{ s[6] }}</td><td>{{ s[7] }}</td><td>{{ s[8] }}</td><td>{{ s[9] }}</td><td>{{ s[10] }}</td><td>{{ s[11] }}</td><td>{{ s[12] }}</td></tr>
+                {% endfor %}    
+            </tbody>
+        </table>
+    </body>
+</html>
+
+
+

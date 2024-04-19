@@ -21,10 +21,10 @@ def about():
 def data():
     con = sqlite3.connect(base_path)
     cursor = con.cursor()
-    housing_prices = cursor.execute("SELECT * FROM housing_prices").fetchall()
+    housing_prices = cursor.execute("SELECT * FROM housing_prices11").fetchall()
     con.close()
 
-    return render_template("data_table.html", housing_prices=housing_prices)
+    return render_template("data_table.html", housing_prices11=housing_prices11)
 
 if __name__=="__main__":
     app.run(debug=True)
